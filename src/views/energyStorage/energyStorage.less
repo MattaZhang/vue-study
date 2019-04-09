@@ -1,0 +1,57 @@
+.pie-data-container:after {
+
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.pie-data-container .pie-data-item {
+  display: inline-block;
+  float: left;
+  text-align: center;
+}
+
+.pie-data-container.pie-5 .pie-data-item {
+  width: 20%;
+}
+
+.pie-data-container.pie-6 .pie-data-item {
+  width: 16.66666666%;
+}
+.pie-data-container{
+  margin: 0px -8px
+}
+.pie-data-container .pie-data-item .pie-data-title {
+ 
+  font-size:0.8rem;
+  // text-transform: uppercase;
+  line-height: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.pie-data-container .pie-data-item .pie-data-content {
+  padding:  0px;
+}
+
+.pie-data-container .pie-data-item:nth-child(2n+1) .pie-data-title {
+  background: #e5e5e5;
+}
+
+.pie-data-container .pie-data-item:nth-child(2n) .pie-data-title {
+  background: #dedede;
+}
+
+.pie-data-container .pie-data-item:nth-child(2n+1) .pie-data-content {
+  background: #f7f7f7;
+}
+
+.pie-data-container .pie-data-item:nth-child(2n) .pie-data-content {
+  background: #f0f0f0;
+}
+.options{
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
